@@ -1,34 +1,22 @@
-# Spring Boot REST API Demo
+# Diamond Hotel Management System
 
-A production-ready Spring Boot application demonstrating REST API development with JPA, SQL, and Maven. This project includes CRUD operations, global exception handling, input validation, and follows best practices.
+A desktop application built with **Java Swing** for hotel room booking, billing, and customer management.
 
 ## 🚀 Features
-
-- RESTful APIs with Spring Web
-- Database persistence using Spring Data JPA (SQL)
-- Global exception handling with `@ControllerAdvice`
-- Input validation using Jakarta Validation
-- Layered architecture (Controller, Service, Repository)
-- Maven as build tool
+- User authentication (admin / staff)
+- Room booking and availability check
+- Customer check-in / check-out
+- Billing and invoice generation
+- Search and view records
+- Reports (daily, monthly)
 
 ## 🛠️ Technologies
+- Java 17
+- Swing (GUI)
+- MySQL (database)
+- NetBeans IDE
 
-| Technology       | 
-|------------------|
-| Java             | 
-| Spring Boot      | 
-| SQL              |
-| Maven            | 
-
-## 📦 Prerequisites
-
-- JDK 17 or later
-- SQL Server
-- Maven (or use the included Maven wrapper)
-
-## 🔧 Setup & Run
-
-1. **Clone the repository**
+## 📦 How to Run
+1. Clone this repository:
    ```bash
-   git clone https://github.com/muthukumar-boomi/spring-boot-demo.git
-   cd spring-boot-demo
+   git clone https://github.com/muthukumar-boomi/Diamond_hotel.git
